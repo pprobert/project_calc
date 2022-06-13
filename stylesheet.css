@@ -1,0 +1,66 @@
+.outside {
+    display: inline-flexbox;
+    background-image: url(math-symbols.jpeg);
+    text-align: center;
+    background-size: auto;
+    border: 2px solid black;
+    height: 925px;
+    
+}
+.case {
+    margin-left: 696px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    height: 600px;
+    background-color: slategray;
+    
+}
+.screen {
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url(lcdscreen.png);
+    background-size: 100%;
+    display: flex;
+    height: 131px;
+    width: 426px;
+    margin-left: 25px;
+}
+.text {
+    text-align: center;
+    display: flex;
+    text-size-adjust: 10%;
+}
+
+.arrangement {
+    display: inline-flex;
+}
+.buttons {
+    
+    display: grid;
+    grid:'clr dve mlt sub '
+         'b7 b8 b9 add'
+         'b4 b5 b6 add'
+         'b1 b2 b3 eql'
+         'b0 b0 dot eql';
+}
+.btn0 {grid-area: b0;}
+.btn1 {grid-area: b1;}
+.btn2 {grid-area: b2;}
+.btn3 {grid-area: b3;}
+.btn4 {grid-area: b4;}
+.btn5 {grid-area: b5;}
+.btn6 {grid-area: b6;}
+.btn7 {grid-area: b7;}
+.btn8 {grid-area: b8;}
+.btn9 {grid-area: b9;}
+.btnClear {grid-area: clr;}
+.btnA {grid-area: add;}
+.btnS {grid-area: sub;}
+.btnM {grid-area: mlt;}
+.btnD {grid-area: dve;}
+.btnE {grid-area: eql;}
+.btnDot {grid-area: dot;}
