@@ -17,6 +17,11 @@
     background-color: slategray;
     
 }
+.screen-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .screen {
     border: 5px;
     border-color: black;
@@ -25,14 +30,14 @@
     background-image: url(lcdscreen.png);
     background-size: 100%;
     display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right:25px;
     height: 131px;
     width: 426px;
-    margin-left: 25px;
 }
 .text {
-    text-align: center;
-    display: flex;
-    text-size-adjust: 10%;
+    font-size: 30pt;
 }
 
 .arrangement {

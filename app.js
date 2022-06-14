@@ -110,7 +110,7 @@ let operate = function(){
 
 // creation funtion for display 
 function display(input){
-  let screen = document.querySelector('.screen');
+  let screen = document.querySelector('.text');
     screen.innerHTML = input;
 }
 
@@ -119,7 +119,7 @@ function clearContent(){
      operand1 = undefined;
      operand2 = undefined;
      operator = undefined;
-    let screen = document.querySelector('.screen');
+    let screen = document.querySelector('.text');
     screen.innerHTML = "0";
     
 }
